@@ -1,0 +1,20 @@
+
+archive/
+
+# Files 
+*.gif
+*.json
+
+# Julia specific
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+Manifest.toml
+
+# VS Code 
+.vscode/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
