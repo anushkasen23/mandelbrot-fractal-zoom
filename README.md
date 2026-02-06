@@ -78,7 +78,7 @@ Approximates if a complex number `c` is in the Mandelbrot set, by calculating th
 - `generate_fractal_seq!(FP, data)`: Generate Mandelbrot fractal zoom data sequentially. `data` is preallocated 3D array of size `(N, N, F)`, storing each frame. 
 - `run_seq(FP)`: Runner for sequential implementation, returns a tuple `(timing::Float64, data::Array)` containing the execution time and the generated fractal data.
 
-### Parallel Implementation (YOUR TASK)
+### Parallel Implementation
 The [`src/parallel.jl`](src/parallel.jl) file contains boilerplate code to implement a Replicated Workers model, using Julia Distributed. 
 
 - `generate_fractal_par!(FP, data)` - Master logic.
